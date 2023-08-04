@@ -16,9 +16,7 @@ export const Socialicons = (params) => {
       <ul>
         {socialprofils.twitter && (
           <li>
-            <a href={socialprofils.twitter}>
-              <FaTwitter />
-            </a>
+
           </li>
         )}
         {socialprofils.github && (
@@ -30,9 +28,7 @@ export const Socialicons = (params) => {
         )}
         {socialprofils.facebook && (
           <li>
-            <a href={socialprofils.facebook}>
-              <FaFacebookF />
-            </a>
+
           </li>
         )}
         {socialprofils.linkedin && (
@@ -44,20 +40,16 @@ export const Socialicons = (params) => {
         )}
         {socialprofils.youtube && (
           <li>
-            <a href={socialprofils.youtube}>
-              <FaYoutube />
-            </a>
+
           </li>
         )}
         {socialprofils.twitch && (
           <li>
-            <a href={socialprofils.twitch}>
-              <FaTwitch />
-            </a>
+
           </li>
         )}
       </ul>
-      <p>Follow Me</p>
+      <p>Connect</p>
     </div>
   );
 };
