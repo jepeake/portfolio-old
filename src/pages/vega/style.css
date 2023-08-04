@@ -78,3 +78,8 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+
+.image {
+    width: 100%;
+    height: auto;
+}

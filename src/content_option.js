@@ -69,17 +69,17 @@ const services = [{
 ];
 
 const dataportfolio = [{
-    img: "",
+    img: process.env.PUBLIC_URL + "images/rocketbw.jpg",
     description: "Vega Avionics System",
     link: "/vega",
     },
     {
-        img: "",
+        img: process.env.PUBLIC_URL + "",
         description: "Autonomous Pathfinding Robot",
         link: "#",
     },
     {
-        img: "",
+        img: process.env.PUBLIC_URL + "images/compiler.jpg",
         description: "C to RISC-V Compiler",
         link: "#",
     }, 
@@ -89,12 +89,7 @@ const dataportfolio = [{
         link: "#",
     }, 
     {
-        img: "",
-        description: "FPGA IoT System",
-        link: "#",
-    }, 
-    {
-        img: "",
+        img: process.env.PUBLIC_URL + "images/portfolio.jpg",
         description: "Webpage Portfolio Design",
         link: "#",
     }, 

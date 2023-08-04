@@ -5,6 +5,23 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
+function downloadPDF() {
+
+  const pdfUrl = process.env.PUBLIC_URL + "Jacob-Peake-CV.pdf";
+
+  const link = document.createElement('a');
+  link.href = pdfUrl;
+
+  link.download = 'Jacob-Peake-CV.pdf';
+
+  document.body.appendChild(link);
+
+  link.click();
+
+  document.body.removeChild(link);
+}
+
+
 export const Home = () => {
   return (
     <HelmetProvider>
@@ -41,20 +58,26 @@ export const Home = () => {
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
+                      My Projects
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="/contact">
+                  <Link to="/about">
                     <div id="button_h" className="ac_btn btn">
-                      Contact Me
+                      About Me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
                   </Link>
+                    <div id="button_h" className="ac_btn btn" onClick={downloadPDF}>
+                      CV
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
                 </div>
               </div>
             </div>
