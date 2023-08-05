@@ -4,6 +4,9 @@ import withRouter from "../hooks/withRouter"
 import { Home } from "../pages/home";
 import { Portfolio } from "../pages/portfolio";
 import { Vega } from "../pages/vega";
+import { Riscv } from "../pages/riscv";
+import { Compiler } from "../pages/compiler";
+import { Webpage } from "../pages/webpage";
 import { ContactUs } from "../pages/contact";
 import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
@@ -27,6 +30,9 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/contact" element={<ContactUs />} />
         <Route path="*" element={<Home />} />
         <Route path="/vega" element={<Vega />} />
+        <Route path="/riscv" element={<Riscv />} />
+        <Route path="/compiler" element={<Compiler />} />
+        <Route path="/webpage" element={<Webpage />} />
       </Routes>
     </CSSTransition>
   </TransitionGroup>
