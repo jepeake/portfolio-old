@@ -1,7 +1,7 @@
 const logotext = "My Portfolio";
 const meta = {
     title: "Jacob Peake",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    description: "",
 };
 
 const introdata = {
@@ -87,27 +87,27 @@ const services = [{
 const dataportfolio = [{
     img: process.env.PUBLIC_URL + "images/rocketbw.jpg",
     description: "Vega Avionics System",
-    link: "/vega",
+    link: "/#/vega",
     },
     {
         img: "",
         description: "Autonomous Pathfinding Robot",
-        link: "/pathfinder",
+        link: "/#/pathfinder",
     },
     {
         img: process.env.PUBLIC_URL + "images/compiler.jpg",
         description: "C to RISC-V Compiler",
-        link: "/compiler",
+        link: "/#/compiler",
     }, 
     {
         img: "",
         description: "RISC-V CPU Design",
-        link: "/riscv",
+        link: "/#/riscv",
     }, 
     {
         img: process.env.PUBLIC_URL + "images/portfolio.jpg",
         description: "Webpage Portfolio Design",
-        link: "/webpage",
+        link: "/#/webpage",
     }, 
 
 
