@@ -6,6 +6,7 @@ import { Portfolio } from "../pages/portfolio";
 import { Vega } from "../pages/vega";
 import { Riscv } from "../pages/riscv";
 import { Compiler } from "../pages/compiler";
+import { Pathfinder } from "../pages/pathfinder";
 import { Webpage } from "../pages/webpage";
 import { ContactUs } from "../pages/contact";
 import { About } from "../pages/about";
@@ -33,6 +34,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/riscv" element={<Riscv />} />
         <Route path="/compiler" element={<Compiler />} />
         <Route path="/webpage" element={<Webpage />} />
+        <Route path="/pathfinder" element={<Pathfinder />} />
       </Routes>
     </CSSTransition>
   </TransitionGroup>
