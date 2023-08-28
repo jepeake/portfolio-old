@@ -18,6 +18,8 @@ export const Webpage= () => {
             <h1 className="display-4 mb-4"> Webpage Portfolio Design </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
             <p><a href="https://github.com/jepeake/jepeake.github.io">Github Repository</a></p>
+            <p><i>HTML, CSS, JavaScript, React</i></p>
+            <p>Designed this Portfolio Webpage to display my projects, experiences , & thoughts.</p>
           </Col>
         </Row>
 
